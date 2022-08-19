@@ -16,8 +16,8 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
     var appkey_secret_values = [APP_KEY, APP_SECRET]
     
     let encryption_secrets = Array(ENCRYPTION_SECRETS.keys).sorted(by: <)
-    let room_name_keys = ["1-1 video call", "Multi video call", "Audio call", "Messages", "File transfer", "Data transfer"]
-    let room_name_values = [ROOM_ONE_TO_ONE_VIDEO, ROOM_MULTI_VIDEO, ROOM_AUDIO, ROOM_MESSAGES, ROOM_FILE_TRANSFER, ROOM_DATA_TRANSFER]
+    let room_name_keys = ["Chat"]
+    let room_name_values = [ROOM_MESSAGES]
     let allAppKey = Array(APP_KEYS.keys).sorted(by:<)
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,10 +25,6 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
         title = "Settings"
         tableView.register(UINib(nibName: "SettingCell", bundle: nil), forCellReuseIdentifier: CELL_IDENTIFIER)
         tableView.register(UINib(nibName: "EncryptSecretCell", bundle: nil), forCellReuseIdentifier: CELL_IDENTIFIER_ENCRYPT_SECRET)
-    }
-    
-    deinit {
-        print(ROOM_ONE_TO_ONE_VIDEO, ROOM_MULTI_VIDEO, ROOM_AUDIO, ROOM_MESSAGES, ROOM_FILE_TRANSFER, ROOM_DATA_TRANSFER)
     }
 
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -73,7 +69,7 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
         }else if section == 1{
             return "Encrypt Secrets"
         } else {
-            return "Room names"
+            return "Room Name Prefix"
         }
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

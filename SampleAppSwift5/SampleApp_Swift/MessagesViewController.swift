@@ -65,9 +65,6 @@ class MessagesViewController: SKConnectableVC, SKYLINKConnectionLifeCycleDelegat
 //MARK: - INIT
     override func initData() {
         super.initData()
-        if roomName.count==0{
-            roomName = ROOM_MESSAGES
-        }
         nicknameTextField.delegate = self
         messageTextField.delegate = self
         joinRoom()
@@ -75,7 +72,7 @@ class MessagesViewController: SKConnectableVC, SKYLINKConnectionLifeCycleDelegat
     }
     override func initUI() {
         super.initUI()
-        title = "Messaging"
+        title = roomName
         updatePeersButtonTitle()
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 70

@@ -16,17 +16,11 @@ class HomeViewController: UIViewController, UITextFieldDelegate, TFRateBarViewDe
     
     let USERDEFAULTS_KEY_SKYLINK_APP_KEY = "SKYLINK_APP_KEY"
     let USERDEFAULTS_KEY_SKYLINK_SECRET = "SKYLINK_SECRET"
-    @IBOutlet weak var roomNameTxt: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setupUI()
         setupOthers()
-    }
-    
-    func setupUI() {
-        roomNameTxt.text = ROOM_NAME
     }
     
     func setupOthers() {
@@ -52,32 +46,21 @@ class HomeViewController: UIViewController, UITextFieldDelegate, TFRateBarViewDe
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.destination.responds(to: Selector(("setSkylinkApiKey:"))) && segue.destination.responds(to: Selector(("setSkylinkApiSecret:"))) {
         }
-        if #available(iOS 10.0, *) {
-            if segue.identifier == "home2videocall", let videocallVc = segue.destination as? VideoCallViewController {
-                videocallVc.backClosure = {
-                    if !UserDefaults.standard.bool(forKey: "DONT_SHOW_ANYMORE") {
-                        let alertController = UIAlertController(title: "Please rate our service\n\n\n\n", message: nil, preferredStyle: .alert)
-                        let container = UIView(frame: CGRect(x: 10, y: 50, width: 230, height: 60))
-                        let starView = TFRateBarView(frame: CGRect(x: 0, y: 10, width: 230, height: 60))
-                        starView.delegate = self
-                        starView.maxRateValue = 4
-                        starView.starBackgroundColor = .lightGray
-                        starView.starTintColor = .yellow
-                        container.addSubview(starView)
-                        alertController.view.addSubview(container)
-                        let hateAction = UIAlertAction(title: "Don't show this anymore", style: .destructive, handler: { _ in
-                            UserDefaults.standard.set(true, forKey: "DONT_SHOW_ANYMORE")
-                        })
-                        let okAction = UIAlertAction(title: "OK", style: .default)
-                        alertController.addAction(hateAction)
-                        alertController.addAction(okAction)
-                        self.present(alertController, animated: true, completion: nil)
-                    }
-                }
-            }
-        } else {
-            // Fallback on earlier versions
+
+        var roomName = ROOM_MESSAGES
+        
+        switch segue.identifier {
+            case "chat-room-1": roomName += "1"
+            case "chat-room-2": roomName += "2"
+            case "chat-room-3": roomName += "3"
+            case "chat-room-4": roomName += "4"
+            case "chat-room-5": roomName += "5"
+            case "chat-room-6": roomName += "6"
+            default: print("Error : Unknown segue identifier", segue.identifier)
         }
+
+        let vc = segue.destination as? SKConnectableVC
+        vc?.roomName = roomName
     }
     
     func alertMessage(_ msg_title: String, msg: String) {
@@ -123,33 +106,7 @@ class HomeViewController: UIViewController, UITextFieldDelegate, TFRateBarViewDe
         alertMessage(msgTitle, msg: msg)
     }
     
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-        return true
-    }
-    @IBAction func clicked() {
-    }
-    
     func didSelectedRateBarView(_ rateBarView: TFRateBarView, atIndex index: Int) {
         rateBarView.rate = index
-    }
-    func textFieldDidChangeSelection(_ textField: UITextField) {
-            if textField == roomNameTxt{
-                ROOM_NAME = textField.text ?? ""
-                print("RoomName: \(ROOM_NAME)")
-            }
-    }
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        let updatedString = (textField.text as NSString?)?.replacingCharacters(in: range, with: string)
-        if textField == roomNameTxt{
-            ROOM_NAME = updatedString ?? ""
-            print("RoomName: \(ROOM_NAME)")
-        }
-        return true
-    }
-    func textFieldShouldClear(_ textField: UITextField) -> Bool {
-        ROOM_NAME = ""
-        print("RoomName: \(ROOM_NAME)")
-        return true;
     }
 }

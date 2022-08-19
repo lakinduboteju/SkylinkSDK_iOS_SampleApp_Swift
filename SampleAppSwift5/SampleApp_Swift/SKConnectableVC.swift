@@ -34,7 +34,6 @@ class SKConnectableVC: UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(customView: infoButton)
     }
     func initData(){
-        roomName = ROOM_NAME
         userName = USER_NAME
     }
     override func viewWillDisappear(_ animated: Bool) {
