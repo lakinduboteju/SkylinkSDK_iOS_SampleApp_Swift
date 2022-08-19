@@ -21,12 +21,9 @@
 		C24631E22265BD80008157EB /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24631E12265BD80008157EB /* Document.swift */; };
 		C256AB6922549C93005B7FA5 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C256AB6522549C93005B7FA5 /* SettingCell.xib */; };
 		C256AB6A22549C93005B7FA5 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C256AB6622549C93005B7FA5 /* SettingCell.swift */; };
-		C256AB6B22549C93005B7FA5 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C256AB6722549C93005B7FA5 /* StatsView.swift */; };
-		C256AB6C22549C93005B7FA5 /* StatsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C256AB6822549C93005B7FA5 /* StatsView.xib */; };
 		C2683175226466DF005BCF69 /* InsideFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2683173226466DF005BCF69 /* InsideFilesViewController.swift */; };
 		C2683176226466DF005BCF69 /* InsideFilesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2683174226466DF005BCF69 /* InsideFilesViewController.xib */; };
 		C28D2C691F87707B00FEFF70 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D2C681F87707B00FEFF70 /* SettingsViewController.swift */; };
-		C28DFDB21F848BDA00BF67D7 /* DataTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DFDB11F848BDA00BF67D7 /* DataTransferViewController.swift */; };
 		C29C08A42266CCE50026DFC7 /* TFRateStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C08A22266CCE50026DFC7 /* TFRateStarView.swift */; };
 		C29C08A52266CCE50026DFC7 /* TFRateBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C08A32266CCE50026DFC7 /* TFRateBarView.swift */; };
 		C29C08A9226727390026DFC7 /* WrapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C08A7226727390026DFC7 /* WrapViewController.swift */; };
@@ -42,30 +39,16 @@
 		C2A504F31F7363E3002CF286 /* HideKeyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504D41F7363C0002CF286 /* HideKeyboard@2x.png */; };
 		C2A504F41F7363E3002CF286 /* LockFilled.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504D51F7363C0002CF286 /* LockFilled.png */; };
 		C2A504F51F7363E3002CF286 /* LockFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504D61F7363C0002CF286 /* LockFilled@2x.png */; };
-		C2A504F61F7363E3002CF286 /* Microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504D71F7363C0002CF286 /* Microphone.png */; };
-		C2A504F71F7363E3002CF286 /* Microphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504D81F7363C0002CF286 /* Microphone@2x.png */; };
 		C2A504F81F7363E3002CF286 /* NoMicrophoneFilled.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504D91F7363C0002CF286 /* NoMicrophoneFilled.png */; };
 		C2A504F91F7363E3002CF286 /* NoMicrophoneFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504DA1F7363C0002CF286 /* NoMicrophoneFilled@2x.png */; };
-		C2A504FA1F7363E3002CF286 /* NoVideoFilled.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504DB1F7363C0002CF286 /* NoVideoFilled.png */; };
-		C2A504FB1F7363E3002CF286 /* NoVideoFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504DC1F7363C0002CF286 /* NoVideoFilled@2x.png */; };
 		C2A504FC1F7363E3002CF286 /* Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504DD1F7363C0002CF286 /* Refresh.png */; };
 		C2A504FD1F7363E3002CF286 /* Refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504DE1F7363C0002CF286 /* Refresh@2x.png */; };
-		C2A504FE1F7363E3002CF286 /* SwitchCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504DF1F7363C0002CF286 /* SwitchCamera.png */; };
-		C2A504FF1F7363E3002CF286 /* SwitchCamera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504E01F7363C0002CF286 /* SwitchCamera@2x.png */; };
 		C2A505001F7363E3002CF286 /* Unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504E11F7363C0002CF286 /* Unlock.png */; };
 		C2A505011F7363E3002CF286 /* Unlock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504E21F7363C0002CF286 /* Unlock@2x.png */; };
-		C2A505021F7363E3002CF286 /* VideoCall.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504E31F7363C0002CF286 /* VideoCall.png */; };
-		C2A505031F7363E3002CF286 /* VideoCall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A504E41F7363C0002CF286 /* VideoCall@2x.png */; };
 		C2A5050C1F73640C002CF286 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A505041F73640B002CF286 /* MessagesViewController.swift */; };
-		C2A5050D1F73640C002CF286 /* VideoCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A505051F73640B002CF286 /* VideoCallViewController.swift */; };
-		C2A5050E1F73640C002CF286 /* MultiVideoCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A505061F73640B002CF286 /* MultiVideoCallViewController.swift */; };
-		C2A5050F1F73640C002CF286 /* AudioCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A505071F73640B002CF286 /* AudioCallViewController.swift */; };
 		C2A505101F73640C002CF286 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A505081F73640B002CF286 /* Constants.swift */; };
 		C2A505111F73640C002CF286 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A505091F73640C002CF286 /* HomeViewController.swift */; };
 		C2A505121F73640C002CF286 /* UIAspectFitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A5050A1F73640C002CF286 /* UIAspectFitButton.swift */; };
-		C2A505131F73640C002CF286 /* FileTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A5050B1F73640C002CF286 /* FileTransferViewController.swift */; };
-		C2FE1798225368A600AFB369 /* sampleImage_transfer.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FE1796225368A600AFB369 /* sampleImage_transfer.png */; };
-		C2FE1799225368A600AFB369 /* sampleImage_groupTransfer.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FE1797225368A600AFB369 /* sampleImage_groupTransfer.png */; };
 		C2FFF6951F6E26F0007A467A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FFF6941F6E26F0007A467A /* AppDelegate.swift */; };
 		C2FFF69A1F6E26F0007A467A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FFF6981F6E26F0007A467A /* Main.storyboard */; };
 		C2FFF69C1F6E26F0007A467A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FFF69B1F6E26F0007A467A /* Assets.xcassets */; };
@@ -113,14 +96,11 @@
 		C24631E12265BD80008157EB /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		C256AB6522549C93005B7FA5 /* SettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
 		C256AB6622549C93005B7FA5 /* SettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
-		C256AB6722549C93005B7FA5 /* StatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
-		C256AB6822549C93005B7FA5 /* StatsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatsView.xib; sourceTree = "<group>"; };
 		C2683173226466DF005BCF69 /* InsideFilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsideFilesViewController.swift; sourceTree = "<group>"; };
 		C2683174226466DF005BCF69 /* InsideFilesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InsideFilesViewController.xib; sourceTree = "<group>"; };
 		C2724054225DE5F700B5365A /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
 		C2724060225DE5F700B5365A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C28D2C681F87707B00FEFF70 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		C28DFDB11F848BDA00BF67D7 /* DataTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransferViewController.swift; sourceTree = "<group>"; };
 		C29C08A22266CCE50026DFC7 /* TFRateStarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFRateStarView.swift; sourceTree = "<group>"; };
 		C29C08A32266CCE50026DFC7 /* TFRateBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFRateBarView.swift; sourceTree = "<group>"; };
 		C29C08A7226727390026DFC7 /* WrapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapViewController.swift; sourceTree = "<group>"; };
@@ -133,34 +113,20 @@
 		C2A504D41F7363C0002CF286 /* HideKeyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HideKeyboard@2x.png"; sourceTree = "<group>"; };
 		C2A504D51F7363C0002CF286 /* LockFilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LockFilled.png; sourceTree = "<group>"; };
 		C2A504D61F7363C0002CF286 /* LockFilled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockFilled@2x.png"; sourceTree = "<group>"; };
-		C2A504D71F7363C0002CF286 /* Microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Microphone.png; sourceTree = "<group>"; };
-		C2A504D81F7363C0002CF286 /* Microphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Microphone@2x.png"; sourceTree = "<group>"; };
 		C2A504D91F7363C0002CF286 /* NoMicrophoneFilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoMicrophoneFilled.png; sourceTree = "<group>"; };
 		C2A504DA1F7363C0002CF286 /* NoMicrophoneFilled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NoMicrophoneFilled@2x.png"; sourceTree = "<group>"; };
-		C2A504DB1F7363C0002CF286 /* NoVideoFilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoVideoFilled.png; sourceTree = "<group>"; };
-		C2A504DC1F7363C0002CF286 /* NoVideoFilled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NoVideoFilled@2x.png"; sourceTree = "<group>"; };
 		C2A504DD1F7363C0002CF286 /* Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Refresh.png; sourceTree = "<group>"; };
 		C2A504DE1F7363C0002CF286 /* Refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refresh@2x.png"; sourceTree = "<group>"; };
-		C2A504DF1F7363C0002CF286 /* SwitchCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwitchCamera.png; sourceTree = "<group>"; };
-		C2A504E01F7363C0002CF286 /* SwitchCamera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SwitchCamera@2x.png"; sourceTree = "<group>"; };
 		C2A504E11F7363C0002CF286 /* Unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unlock.png; sourceTree = "<group>"; };
 		C2A504E21F7363C0002CF286 /* Unlock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unlock@2x.png"; sourceTree = "<group>"; };
-		C2A504E31F7363C0002CF286 /* VideoCall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VideoCall.png; sourceTree = "<group>"; };
-		C2A504E41F7363C0002CF286 /* VideoCall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VideoCall@2x.png"; sourceTree = "<group>"; };
 		C2A504E51F7363C0002CF286 /* logoSkylink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoSkylink.png; sourceTree = "<group>"; };
 		C2A504E61F7363C0002CF286 /* logoSkylink@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoSkylink@2x.png"; sourceTree = "<group>"; };
 		C2A504E71F7363C0002CF286 /* logoSkylink@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoSkylink@3x.png"; sourceTree = "<group>"; };
 		C2A505041F73640B002CF286 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
-		C2A505051F73640B002CF286 /* VideoCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallViewController.swift; sourceTree = "<group>"; };
-		C2A505061F73640B002CF286 /* MultiVideoCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiVideoCallViewController.swift; sourceTree = "<group>"; };
-		C2A505071F73640B002CF286 /* AudioCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCallViewController.swift; sourceTree = "<group>"; };
 		C2A505081F73640B002CF286 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C2A505091F73640C002CF286 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C2A5050A1F73640C002CF286 /* UIAspectFitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAspectFitButton.swift; sourceTree = "<group>"; };
-		C2A5050B1F73640C002CF286 /* FileTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTransferViewController.swift; sourceTree = "<group>"; };
 		C2A505141F73652A002CF286 /* SampleApp_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleApp_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
-		C2FE1796225368A600AFB369 /* sampleImage_transfer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sampleImage_transfer.png; sourceTree = "<group>"; };
-		C2FE1797225368A600AFB369 /* sampleImage_groupTransfer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sampleImage_groupTransfer.png; sourceTree = "<group>"; };
 		C2FFF6911F6E26F0007A467A /* SampleApp_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FFF6941F6E26F0007A467A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2FFF6991F6E26F0007A467A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -236,8 +202,6 @@
 		C2A504CF1F7363C0002CF286 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				C2FE1796225368A600AFB369 /* sampleImage_transfer.png */,
-				C2FE1797225368A600AFB369 /* sampleImage_groupTransfer.png */,
 				C2A504D01F7363C0002CF286 /* icons */,
 				C2A504E51F7363C0002CF286 /* logoSkylink.png */,
 				C2A504E61F7363C0002CF286 /* logoSkylink@2x.png */,
@@ -255,20 +219,12 @@
 				C2A504D41F7363C0002CF286 /* HideKeyboard@2x.png */,
 				C2A504D51F7363C0002CF286 /* LockFilled.png */,
 				C2A504D61F7363C0002CF286 /* LockFilled@2x.png */,
-				C2A504D71F7363C0002CF286 /* Microphone.png */,
-				C2A504D81F7363C0002CF286 /* Microphone@2x.png */,
 				C2A504D91F7363C0002CF286 /* NoMicrophoneFilled.png */,
 				C2A504DA1F7363C0002CF286 /* NoMicrophoneFilled@2x.png */,
-				C2A504DB1F7363C0002CF286 /* NoVideoFilled.png */,
-				C2A504DC1F7363C0002CF286 /* NoVideoFilled@2x.png */,
 				C2A504DD1F7363C0002CF286 /* Refresh.png */,
 				C2A504DE1F7363C0002CF286 /* Refresh@2x.png */,
-				C2A504DF1F7363C0002CF286 /* SwitchCamera.png */,
-				C2A504E01F7363C0002CF286 /* SwitchCamera@2x.png */,
 				C2A504E11F7363C0002CF286 /* Unlock.png */,
 				C2A504E21F7363C0002CF286 /* Unlock@2x.png */,
-				C2A504E31F7363C0002CF286 /* VideoCall.png */,
-				C2A504E41F7363C0002CF286 /* VideoCall@2x.png */,
 			);
 			path = icons;
 			sourceTree = "<group>";
@@ -311,12 +267,7 @@
 				C2A505081F73640B002CF286 /* Constants.swift */,
 				C2FFF6941F6E26F0007A467A /* AppDelegate.swift */,
 				CB57A883239612250083D679 /* SKConnectableVC.swift */,
-				C2A505071F73640B002CF286 /* AudioCallViewController.swift */,
-				C2A505051F73640B002CF286 /* VideoCallViewController.swift */,
 				C2A505041F73640B002CF286 /* MessagesViewController.swift */,
-				C2A505061F73640B002CF286 /* MultiVideoCallViewController.swift */,
-				C2A5050B1F73640C002CF286 /* FileTransferViewController.swift */,
-				C28DFDB11F848BDA00BF67D7 /* DataTransferViewController.swift */,
 				C2A505091F73640C002CF286 /* HomeViewController.swift */,
 				C28D2C681F87707B00FEFF70 /* SettingsViewController.swift */,
 				C2A5050A1F73640C002CF286 /* UIAspectFitButton.swift */,
@@ -325,8 +276,6 @@
 				C256AB6522549C93005B7FA5 /* SettingCell.xib */,
 				CB62480123FBE34100EBB57A /* EncryptSecretCell.swift */,
 				CB62480223FBE34100EBB57A /* EncryptSecretCell.xib */,
-				C256AB6722549C93005B7FA5 /* StatsView.swift */,
-				C256AB6822549C93005B7FA5 /* StatsView.xib */,
 				CB4922E923EBB22900A2BFBE /* Utils.swift */,
 				C29C08B122681B6C0026DFC7 /* OpenDocument */,
 				C2FFF69B1F6E26F0007A467A /* Assets.xcassets */,
@@ -455,20 +404,13 @@
 				C2A504ED1F7363DD002CF286 /* logoSkylink.png in Resources */,
 				C2FFF69F1F6E26F0007A467A /* LaunchScreen.storyboard in Resources */,
 				C2A504FD1F7363E3002CF286 /* Refresh@2x.png in Resources */,
-				C2A504F71F7363E3002CF286 /* Microphone@2x.png in Resources */,
 				C2FFF69C1F6E26F0007A467A /* Assets.xcassets in Resources */,
 				C21B80E4227D9ED800EEEA68 /* PDF.pdf in Resources */,
 				C2A504F31F7363E3002CF286 /* HideKeyboard@2x.png in Resources */,
-				C2FE1799225368A600AFB369 /* sampleImage_groupTransfer.png in Resources */,
 				C21B80E5227D9ED800EEEA68 /* Word.docx in Resources */,
-				C2A505021F7363E3002CF286 /* VideoCall.png in Resources */,
 				C29C08AA226727390026DFC7 /* WrapViewController.xib in Resources */,
-				C2A504FE1F7363E3002CF286 /* SwitchCamera.png in Resources */,
 				C21B80E6227D9ED800EEEA68 /* PlainText.txt in Resources */,
-				C2A505031F7363E3002CF286 /* VideoCall@2x.png in Resources */,
 				C21B80E8227D9ED800EEEA68 /* Excel.xlsx in Resources */,
-				C2A504FB1F7363E3002CF286 /* NoVideoFilled@2x.png in Resources */,
-				C2A504F61F7363E3002CF286 /* Microphone.png in Resources */,
 				C2A504F21F7363E3002CF286 /* HideKeyboard.png in Resources */,
 				C29C08B322681E410026DFC7 /* NewFile.txt in Resources */,
 				C2A504F11F7363E3002CF286 /* Cancel@2x.png in Resources */,
@@ -481,16 +423,12 @@
 				C2A504F81F7363E3002CF286 /* NoMicrophoneFilled.png in Resources */,
 				C21B80E2227D9ED800EEEA68 /* PPT.pptx in Resources */,
 				C2A504F41F7363E3002CF286 /* LockFilled.png in Resources */,
-				C256AB6C22549C93005B7FA5 /* StatsView.xib in Resources */,
 				C2A504EE1F7363DD002CF286 /* logoSkylink@2x.png in Resources */,
 				C21B80E0227D9ED800EEEA68 /* Pages.pages in Resources */,
 				C256AB6922549C93005B7FA5 /* SettingCell.xib in Resources */,
-				C2A504FF1F7363E3002CF286 /* SwitchCamera@2x.png in Resources */,
-				C2FE1798225368A600AFB369 /* sampleImage_transfer.png in Resources */,
 				C2A504EF1F7363DD002CF286 /* logoSkylink@3x.png in Resources */,
 				C2A505011F7363E3002CF286 /* Unlock@2x.png in Resources */,
 				C21B80E1227D9ED800EEEA68 /* Numbers.numbers in Resources */,
-				C2A504FA1F7363E3002CF286 /* NoVideoFilled.png in Resources */,
 				C21B80E7227D9ED800EEEA68 /* Image.png in Resources */,
 				C21B80E3227D9ED800EEEA68 /* Keynote.key in Resources */,
 				C2FFF69A1F6E26F0007A467A /* Main.storyboard in Resources */,
@@ -578,15 +516,10 @@
 				C29C08B022681B540026DFC7 /* DocumentActivity.swift in Sources */,
 				CB4922EA23EBB22900A2BFBE /* Utils.swift in Sources */,
 				CB298C0A22FC0CE800C7CC0B /* SAPeerObject.swift in Sources */,
-				C2A5050F1F73640C002CF286 /* AudioCallViewController.swift in Sources */,
-				C28DFDB21F848BDA00BF67D7 /* DataTransferViewController.swift in Sources */,
-				C256AB6B22549C93005B7FA5 /* StatsView.swift in Sources */,
 				CB57A884239612250083D679 /* SKConnectableVC.swift in Sources */,
 				C24631E22265BD80008157EB /* Document.swift in Sources */,
 				C24631DF2265BD5C008157EB /* DocumentViewController.swift in Sources */,
 				C2FFF6951F6E26F0007A467A /* AppDelegate.swift in Sources */,
-				C2A5050E1F73640C002CF286 /* MultiVideoCallViewController.swift in Sources */,
-				C2A5050D1F73640C002CF286 /* VideoCallViewController.swift in Sources */,
 				CB0ACEAA2403D574001C8621 /* String+Ext.swift in Sources */,
 				CB62480023FBE0A900EBB57A /* EncryptSecretObject.swift in Sources */,
 				C29C08A9226727390026DFC7 /* WrapViewController.swift in Sources */,
@@ -598,7 +531,6 @@
 				C2683175226466DF005BCF69 /* InsideFilesViewController.swift in Sources */,
 				CB62480323FBE34100EBB57A /* EncryptSecretCell.swift in Sources */,
 				C2A505121F73640C002CF286 /* UIAspectFitButton.swift in Sources */,
-				C2A505131F73640C002CF286 /* FileTransferViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
